@@ -9,35 +9,48 @@ html {
 }
 
 body {
-
 	font-family: 'Roboto Condensed', sans-serif;
 }
 
+/* footer {
+	background-color: #8D3737;
+	max-width: 100%;
+	height: 5rem;
+} */
+
 /* Scrollbar from w3Schools*/
-/* width */
+/* Width */
 ::-webkit-scrollbar {
-  width: 10px;
+	width: 10px;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #f1f1f1; 
+	background: #f1f1f1; 
 }
  
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #D23030;
-  border-radius: 10px;
+	background: #D23030;
+	border-radius: 10px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #555; 
+	background: #555; 
 }
 
 a {
-	color: #FFB4A1;
+	color: #ffcabd;
 	text-decoration: none;
+	text-transform: lowercase;
+	outline: none;
+}
+
+
+h1, h2, h3, h4 {
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
 }
 
 h1 {
@@ -49,13 +62,8 @@ h2 {
 	color: #D23030;
 }
 
-h3 {
-	color: #FFB4A1;
-	font-weight: 400;
-}
-
-h4 {
-	color: #FFB4A1;
+h3, h4 {
+	color: #f0856b;
 	font-weight: 400;
 }
 
@@ -66,6 +74,10 @@ p {
 
 img {
 	max-width: 100%;
+}
+
+ul {
+	margin-bottom: 1rem;
 }
 
 li {
@@ -103,6 +115,11 @@ li {
 
 .text-highlight {
 	color: #D23030;
+}
+
+.bold-text {
+	color: #571717;
+	font-weight: bold;
 }
 
 /* Home */
@@ -158,11 +175,13 @@ li {
 }
 
 .project-container a {
-	color: #D23030;
+	color: #bb9696;
+	margin-bottom: 2rem;
 }
 
 .project-container a:hover {
 	text-decoration: underline;
+	color: #8D3737;
 }
 
 .project-container p {
@@ -183,38 +202,6 @@ li {
 	list-style-type: none;
 }
 
-/* Styleguide */
-.section-style {
-	margin-bottom: 2rem;
-}
-
-.palette-box {
-	display: inline-block;
-	width: 5rem;
-	height: 5rem;
-}
-
-.palette-item {
-	margin: 2rem;
-}
-
-.colour-1 {
-	background-color: #D23030;
-}
-
-.colour-2 {
-	background-color: #8D3737;
-}
-
-.colour-3 {
-	background-color: #FFB4A1;
-}
-	
-
-.colour-4 {
-	background-color: #FFF3F0;
-	border: 0.1rem solid #8D3737;
-}
 
 /* Laptop */
 @media screen and (min-width: 960px) {
@@ -224,7 +211,6 @@ li {
 	}
 
 	.project-info-container {
-		margin-top: 2rem;
 		padding: 2rem;
 	}
 }
