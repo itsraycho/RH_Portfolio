@@ -48,6 +48,7 @@ a {
 }
 
 
+
 h1, h2, h3, h4 {
 	margin-top: 0.5rem;
 	margin-bottom: 0.5rem;
@@ -166,6 +167,10 @@ li {
 
 .about-container p{
 	margin-bottom: 1rem;
+}
+
+.resume-item {
+	text-transform: uppercase;
 }
 
 /* Detailed Project */

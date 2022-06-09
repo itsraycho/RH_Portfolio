@@ -66,6 +66,12 @@ nav {
 	align-content: center;
 }
 
+.connect-container {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
 /* About */
 .about-container {
 	display: flex;
@@ -89,11 +95,6 @@ nav {
 	flex-direction: column;
 }
 
-/* Styleguide */
-.palette-container {
-	display: flex;
-	flex-wrap: wrap;
-}
 
 /*Laptop*/
 @media screen and (min-width: 960px) {
